@@ -1,15 +1,16 @@
 import time
-
+z = 3
 a = 2
 b = 4
-z = 3
+
 def Zivoty():
-    z = z-1
+    print(z)
+    z= z-1
+    #Print z ide ale z = z-1 nie??
+    print("Stratil si 1 živoz")
     if z == 0:
         print("Stratil si posledný život")
-        Vypnutie()
-    else:
-        print("Stratil si jeden život")
+        exit()
 
 def Vypisanie():
     print("""Vyber si príklady na:
@@ -52,4 +53,4 @@ else:
     exit()
 
 
-#Ivanova mama je tlsta
+#Ivanova mama je tlsta velmi moc
